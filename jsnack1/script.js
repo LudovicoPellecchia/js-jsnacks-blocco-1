@@ -1,6 +1,6 @@
 const nameList = ["Giorgia" , "Gianni" ,"Matteo" , "Romano" , "Silvio", "Pierferdinando"]
 const surnameList = ["Giorgini" , "Giannini" , "Matteini" ,"Romanini","Silvini","Ferdinandini"]
-
+const fakeArray=[]
 
 
 for (let i = 0; i < nameList.length; i++) {
@@ -11,7 +11,14 @@ for (let i = 0; i < nameList.length; i++) {
     const currentSurname = surnameList[randomSurname]    
 
     const fakeName = `${currentName} ${currentSurname}`
-    console.log (fakeName)
+/*     console.log (fakeName)
+ */    fakeArray.push(fakeName)
+
 }
+
+
+console.log(fakeArray)
+
+
 
 
