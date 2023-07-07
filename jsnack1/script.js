@@ -15,7 +15,6 @@ for (let i = 0; i < nameList.length; i++) {
 
 }
 
-
 console.log(fakeArray)
 
 
